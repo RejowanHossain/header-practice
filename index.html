@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            Logo
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nam
+          quia? Explicabo rerum magni ullam maiores aliquid sint voluptate
+          expedita, minus, deserunt distinctio tempore beatae omnis,
+          voluptatibus autem corporis velit esse itaque animi? Recusandae
+          incidunt quos illum similique maxime? Sint, accusamus. Saepe minus
+          quasi rerum nostrum maiores deserunt, aut alias!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+          sunt officia magnam suscipit? Dolorem, quod quam nesciunt harum et
+          sed?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fuga,
+          culpa, accusamus quae quas, facilis consequatur laborum tempore
+          distinctio libero officia provident. Fugiat minus, tenetur vitae
+          doloremque voluptate eveniet quae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nam
+          quia? Explicabo rerum magni ullam maiores aliquid sint voluptate
+          expedita, minus, deserunt distinctio tempore beatae omnis,
+          voluptatibus autem corporis velit esse itaque animi? Recusandae
+          incidunt quos illum similique maxime? Sint, accusamus. Saepe minus
+          quasi rerum nostrum maiores deserunt, aut alias!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+          sunt officia magnam suscipit? Dolorem, quod quam nesciunt harum et
+          sed?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fuga,
+          culpa, accusamus quae quas, facilis consequatur laborum tempore
+          distinctio libero officia provident. Fugiat minus, tenetur vitae
+          doloremque voluptate eveniet quae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nam
+          quia? Explicabo rerum magni ullam maiores aliquid sint voluptate
+          expedita, minus, deserunt distinctio tempore beatae omnis,
+          voluptatibus autem corporis velit esse itaque animi? Recusandae
+          incidunt quos illum similique maxime? Sint, accusamus. Saepe minus
+          quasi rerum nostrum maiores deserunt, aut alias!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+          sunt officia magnam suscipit? Dolorem, quod quam nesciunt harum et
+          sed?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fuga,
+          culpa, accusamus quae quas, facilis consequatur laborum tempore
+          distinctio libero officia provident. Fugiat minus, tenetur vitae
+          doloremque voluptate eveniet quae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nam
+          quia? Explicabo rerum magni ullam maiores aliquid sint voluptate
+          expedita, minus, deserunt distinctio tempore beatae omnis,
+          voluptatibus autem corporis velit esse itaque animi? Recusandae
+          incidunt quos illum similique maxime? Sint, accusamus. Saepe minus
+          quasi rerum nostrum maiores deserunt, aut alias!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+          sunt officia magnam suscipit? Dolorem, quod quam nesciunt harum et
+          sed?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fuga,
+          culpa, accusamus quae quas, facilis consequatur laborum tempore
+          distinctio libero officia provident. Fugiat minus, tenetur vitae
+          doloremque voluptate eveniet quae.
+        </p>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+          $("nav ul").toggleClass("showing");
+        });
+      });
+
+      $(window).on("scroll", function() {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+    </script>
+  </body>
+</html>
